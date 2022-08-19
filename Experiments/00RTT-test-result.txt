@@ -1,0 +1,10 @@
+1.UTAH-SALT
+h1----rtt min/avg/max/mdev = 0.059/0.087/0.203/0.039 ms----h2----rtt min/avg/max/mdev = 0.182/0.253/0.768/0.171 ms---h4---rtt min/avg/max/mdev = 0.047/0.100/0.395/0.098 ms---h5
+2.MICH-STAR
+h1----rtt min/avg/max/mdev = 0.063/0.092/0.176/0.030 ms----h2----rtt min/avg/max/mdev = 5.252/5.293/5.528/0.079 ms---h4---rtt min/avg/max/mdev = 0.068/0.105/0.253/0.052 ms---h5
+3.STAR-DALL
+h1----rtt min/avg/max/mdev = 0.078/0.167/0.477/0.155 ms----h2----rtt min/avg/max/mdev = 19.939/23.998/40.167/8.084 ms---h4---rtt min/avg/max/mdev = 0.084/0.179/0.537/0.178 ms---h5
+4.UTAH-MAX
+h1----rtt min/avg/max/mdev = 0.062/0.165/0.442/0.143 ms----h2----rtt min/avg/max/mdev = 48.141/57.848/96.642/19.396 ms---h4---rtt min/avg/max/mdev = 0.059/0.148/0.463/0.157 ms---h5
+5.MICH-TACC
+h1----rtt min/avg/max/mdev = 0.069/0.161/0.473/0.155 ms----h2----rtt min/avg/max/mdev = 119.408/143.370/239.083/47.856 ms---h4---rtt min/avg/max/mdev = 0.062/0.160/0.491/0.165 ms---h5

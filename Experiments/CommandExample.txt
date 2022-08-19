@@ -1,0 +1,29 @@
+Size used: 512 1024 2048 4096 8192 16384 32768 65536 131072 262144 524288 1048576
+
+direct connection:
+h2: python pub_bench.py --port 7000 --sync 17000
+h4: python sub_bench.py --remote-host 172.16.1.1 --remote-port 7000 --sync 17000
+
+old SciStream:
+h1: python pub_bench.py --port 7000 --sync 17000
+h2: ./S2DS.out --remote-host=172.16.0.1 --remote-port=7000 --buffer-size=10485760 
+    ./S2DS.out --remote-host=172.16.0.1 --remote-port=17000 --buffer-size=10485760
+h4: ./S2DS.out --remote-host=172.16.1.1 --remote-port=xxxx --buffer-size=10485760
+    ./S2DS.out --remote-host=172.16.1.1 --remote-port=xxxx --buffer-size=10485760
+h5: python sub_bench.py --remote-host 172.16.2.1 --remote-port 41887 --sync 45517
+
+sockmap:
+h1: python pub_bench.py --port 7000 --sync 17000
+h2: ./sockmap 0 0 172.16.0.1 7000 ./sockmap 0 0 172.16.0.1 17000
+h4: ./sockmap 0 0 172.16.1.1 40111 ./sockmap 0 0 172.16.1.1 41657
+h5: python sub_bench.py --remote-host 172.16.2.1 --remote-port 41887 --sync 45517
+
+QUIC direct connection:
+h2: go run sender.py -addr=172.16.1.2:4242
+h4: go run receiver.go -addr=172.16.1.2:4242
+
+QUIC proxy (sequence matters):
+h2: go run proxy.go -addrFrom 172.16.0.2:4242 -addrTo 172.16.1.2:4243
+h4: go run proxy.go -addrFrom 172.16.1.2:4243 -addrTo 172.16.2.2:5252
+h5: go run receiver.go -addr=172.16.2.2:5252
+h1: go run sender.go -addr=172.16.0.2:4242
