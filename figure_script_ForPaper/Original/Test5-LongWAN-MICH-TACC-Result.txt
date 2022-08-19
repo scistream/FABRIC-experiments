@@ -1,0 +1,58 @@
+Direct connection
+INFO:root:Elapsed: 76.50641012191772 secs. | Throughput: 1.046 Gbps | Jitter: 0.000045 | Inter-message Space: 0.000004 | Efficiency: 100.00%
+INFO:root:Elapsed: 49.79250383377075 secs. | Throughput: 1.607 Gbps | Jitter: 0.000065 | Inter-message Space: 0.000005 | Efficiency: 100.00%
+INFO:root:Elapsed: 27.207237243652344 secs. | Throughput: 2.940 Gbps | Jitter: 0.000090 | Inter-message Space: 0.000005 | Efficiency: 100.00%
+INFO:root:Elapsed: 21.23962092399597 secs. | Throughput: 3.767 Gbps | Jitter: 0.000134 | Inter-message Space: 0.000008 | Efficiency: 100.00%
+INFO:root:Elapsed: 17.480953454971313 secs. | Throughput: 4.576 Gbps | Jitter: 0.000210 | Inter-message Space: 0.000013 | Efficiency: 100.00%
+INFO:root:Elapsed: 13.122990369796753 secs. | Throughput: 6.096 Gbps | Jitter: 0.000283 | Inter-message Space: 0.000020 | Efficiency: 100.00%
+INFO:root:Elapsed: 11.708250284194946 secs. | Throughput: 6.833 Gbps | Jitter: 0.000437 | Inter-message Space: 0.000036 | Efficiency: 100.00%
+INFO:root:Elapsed: 11.677029609680176 secs. | Throughput: 6.851 Gbps | Jitter: 0.000605 | Inter-message Space: 0.000071 | Efficiency: 100.00%
+INFO:root:Elapsed: 11.944368124008179 secs. | Throughput: 6.698 Gbps | Jitter: 0.000821 | Inter-message Space: 0.000143 | Efficiency: 100.00%
+INFO:root:Elapsed: 13.214581727981567 secs. | Throughput: 6.054 Gbps | Jitter: 0.001104 | Inter-message Space: 0.000314 | Efficiency: 100.00%
+INFO:root:Elapsed: 13.174706220626831 secs. | Throughput: 6.072 Gbps | Jitter: 0.001260 | Inter-message Space: 0.000620 | Efficiency: 100.00%
+INFO:root:Elapsed: 13.109021663665771 secs. | Throughput: 6.103 Gbps | Jitter: 0.002079 | Inter-message Space: 0.001225 | Efficiency: 100.00%
+
+Old SciStream
+INFO:root:Elapsed: 96.08271932601929 secs. | Throughput: 0.833 Gbps | Jitter: 0.000065 | Inter-message Space: 0.000005 | Efficiency: 100.00%
+INFO:root:Elapsed: 60.328911781311035 secs. | Throughput: 1.326 Gbps | Jitter: 0.000072 | Inter-message Space: 0.000006 | Efficiency: 100.00%
+INFO:root:Elapsed: 31.869317293167114 secs. | Throughput: 2.510 Gbps | Jitter: 0.000090 | Inter-message Space: 0.000006 | Efficiency: 100.00%
+INFO:root:Elapsed: 17.156942129135132 secs. | Throughput: 4.663 Gbps | Jitter: 0.000132 | Inter-message Space: 0.000007 | Efficiency: 100.00%
+INFO:root:Elapsed: 14.307153224945068 secs. | Throughput: 5.592 Gbps | Jitter: 0.000182 | Inter-message Space: 0.000011 | Efficiency: 100.00%
+INFO:root:Elapsed: 12.80541443824768 secs. | Throughput: 6.247 Gbps | Jitter: 0.000283 | Inter-message Space: 0.000020 | Efficiency: 100.00%
+INFO:root:Elapsed: 11.612805843353271 secs. | Throughput: 6.889 Gbps | Jitter: 0.000355 | Inter-message Space: 0.000035 | Efficiency: 100.00%
+INFO:root:Elapsed: 11.333562850952148 secs. | Throughput: 7.059 Gbps | Jitter: 0.000585 | Inter-message Space: 0.000068 | Efficiency: 100.00%
+INFO:root:Elapsed: 10.963940143585205 secs. | Throughput: 7.297 Gbps | Jitter: 0.000778 | Inter-message Space: 0.000131 | Efficiency: 100.00%
+INFO:root:Elapsed: 11.5474271774292 secs. | Throughput: 6.928 Gbps | Jitter: 0.001125 | Inter-message Space: 0.000273 | Efficiency: 100.00%
+INFO:root:Elapsed: 11.347646713256836 secs. | Throughput: 7.050 Gbps | Jitter: 0.001578 | Inter-message Space: 0.000532 | Efficiency: 100.00%
+INFO:root:Elapsed: 10.960005283355713 secs. | Throughput: 6.929 Gbps | Jitter: 0.002255 | Inter-message Space: 0.001043 | Efficiency: 94.93%
+
+Sockmap
+INFO:root:Elapsed: 75.36067605018616 secs. | Throughput: 1.062 Gbps | Jitter: 0.000047 | Inter-message Space: 0.000004 | Efficiency: 100.00%
+INFO:root:Elapsed: 70.52483057975769 secs. | Throughput: 1.134 Gbps | Jitter: 0.000078 | Inter-message Space: 0.000007 | Efficiency: 100.00%
+INFO:root:Elapsed: 26.881948709487915 secs. | Throughput: 2.976 Gbps | Jitter: 0.000092 | Inter-message Space: 0.000005 | Efficiency: 100.00%
+INFO:root:Elapsed: 16.573685884475708 secs. | Throughput: 4.827 Gbps | Jitter: 0.000124 | Inter-message Space: 0.000006 | Efficiency: 100.00%
+INFO:root:Elapsed: 14.542713403701782 secs. | Throughput: 5.501 Gbps | Jitter: 0.000198 | Inter-message Space: 0.000011 | Efficiency: 100.00%
+INFO:root:Elapsed: 11.661281824111938 secs. | Throughput: 6.860 Gbps | Jitter: 0.000247 | Inter-message Space: 0.000018 | Efficiency: 100.00%
+INFO:root:Elapsed: 11.639820337295532 secs. | Throughput: 6.873 Gbps | Jitter: 0.000438 | Inter-message Space: 0.000036 | Efficiency: 100.00%
+INFO:root:Elapsed: 11.650606393814087 secs. | Throughput: 6.867 Gbps | Jitter: 0.000607 | Inter-message Space: 0.000070 | Efficiency: 100.00%
+INFO:root:Elapsed: 11.56917119026184 secs. | Throughput: 6.915 Gbps | Jitter: 0.000787 | Inter-message Space: 0.000138 | Efficiency: 100.00%
+INFO:root:Elapsed: 13.164239168167114 secs. | Throughput: 6.077 Gbps | Jitter: 0.000930 | Inter-message Space: 0.000312 | Efficiency: 100.00%
+INFO:root:Elapsed: 13.159901142120361 secs. | Throughput: 6.079 Gbps | Jitter: 0.001309 | Inter-message Space: 0.000623 | Efficiency: 100.00%
+INFO:root:Elapsed: 13.2122802734375 secs. | Throughput: 6.055 Gbps | Jitter: 0.001772 | Inter-message Space: 0.001233 | Efficiency: 100.00%
+
+QUIC direct connection
+INFO:root:Elapsed: 271.2580192089081 secs. | Throughput: 0.295 Gbps | Jitter: 0.000210 | Inter-message Space: 0.000013 | Efficiency: 100.00%
+INFO:root:Elapsed: 241.74804878234863 secs. | Throughput: 0.331 Gbps | Jitter: 0.000432 | Inter-message Space: 0.000023 | Efficiency: 100.00%
+INFO:root:Elapsed: 251.9840807914734 secs. | Throughput: 0.317 Gbps | Jitter: 0.000994 | Inter-message Space: 0.000048 | Efficiency: 100.00%
+INFO:root:Elapsed: 258.02930641174316 secs. | Throughput: 0.310 Gbps | Jitter: 0.001023 | Inter-message Space: 0.000098 | Efficiency: 100.00%
+INFO:root:Elapsed: 254.84576630592346 secs. | Throughput: 0.313 Gbps | Jitter: 0.001483 | Inter-message Space: 0.000195 | Efficiency: 99.85%
+INFO:root:Elapsed: 249.41941714286804 secs. | Throughput: 0.321 Gbps | Jitter: 0.002532 | Inter-message Space: 0.000381 | Efficiency: 100.00%
+INFO:root:Elapsed: 233.11660289764404 secs. | Throughput: 0.343 Gbps | Jitter: 0.003056 | Inter-message Space: 0.000711 | Efficiency: 100.00%
+INFO:root:Elapsed: 230.6098747253418 secs. | Throughput: 0.347 Gbps | Jitter: 0.004831 | Inter-message Space: 0.001407 | Efficiency: 100.00%
+INFO:root:Elapsed: 250.7253623008728 secs. | Throughput: 0.319 Gbps | Jitter: 0.005609 | Inter-message Space: 0.003058 | Efficiency: 100.00%
+INFO:root:Elapsed: 252.59855365753174 secs. | Throughput: 0.317 Gbps | Jitter: 0.010136 | Inter-message Space: 0.006159 | Efficiency: 100.00%
+INFO:root:Elapsed: 258.7764620780945 secs. | Throughput: 0.309 Gbps | Jitter: 0.013735 | Inter-message Space: 0.012615 | Efficiency: 100.00%
+INFO:root:Elapsed: 257.0628716945648 secs. | Throughput: 0.311 Gbps | Jitter: 0.009418 | Inter-message Space: 0.025051 | Efficiency: 100.00%
+
+QUIC proxy
+INFO:root:Elapsed: 265.51759457588196 secs. | Throughput: 0.301 Gbps | Jitter: 0.000588 | Inter-message Space: 0.000013 | Efficiency: 100.00%
