@@ -41,4 +41,4 @@ You will need those supporting files for create the QUIC proxy as well as the so
 ![SciStream Topology on FABRIC, with IPs and dataflow.](FABRIC_topo.jpg "Text to show on mouseover")
 
 ## Contact
-If you have more question, please contact: Chengyi Qu @ cqy78 at mail dot missouri dot edu, or Juaquin Chung @ chungmiranda at anl dot gov.
+If you have more question, please contact: Chengyi Qu @ cqy78 at mail dot missouri dot edu, or Joaquin Chung @ chungmiranda at anl dot gov.
